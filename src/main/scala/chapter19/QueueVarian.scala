@@ -1,29 +1,29 @@
 package chapter19
 
-trait Queue[+T] {
-  def head: T
-  def tail: Queue[T]
-  def enqueue[U >:T](x: U): Queue[U]
-}
-object Queue {
-  def apply[T](xs: T*):Queue[T] = new QueueImplt[T](xs.toList, Nil)
+class QueueVarian[+T] (
+  private[this] var leading: List[T],
+  private[this] var trailing: List[T]) {
 
-  private class QueueImplt[+T](
-    val leading: List[T],
-    val trailing: List[T])
-    extends Queue[T] {
-
-    private def mirror: QueueImplt[T] = {
-      if (leading.isEmpty)
-        new QueueImplt[T](trailing.reverse, Nil)
-      else
-        this
+  private def mirror(): Unit = {
+    if (leading.isEmpty) {
+      while (!trailing.isEmpty) {
+        leading = trailing.head :: leading
+        trailing = trailing.tail
+      }
     }
-
-    def head: T = mirror.leading.head
-    def tail: Queue[T] = new QueueImplt[T](mirror.leading.tail, mirror.trailing)
-    def enqueue[U >:T](x: U): Queue[U] = new QueueImplt(leading, x :: trailing)
-
-    override def toString = (leading ::: trailing.reverse).mkString("Queue" + "(", ", ", ")")
   }
+
+  def head: T = {
+    mirror()
+    leading.head
+  }
+  def tail: QueueVarian[T] = {
+    mirror()
+    new QueueVarian[T](leading.tail, trailing)
+  }
+
+  def enqueue[U >: T](x: U): QueueVarian[U] = new QueueVarian(leading, x :: trailing)
+
+  override def toString = (leading ::: trailing.reverse).mkString("QueueVarian" + "(", ", ", ")")
 }
+

@@ -1,4 +1,6 @@
 package chapter18
 
-class Timw {
+class Time {
+  var Hour= 12
+  var minute = 0
 }

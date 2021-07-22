@@ -1,3 +1,4 @@
+
 val oneTwo = List(1,2)
 val threeFour = List.apply(3,4)
 val oneTwoThreeFour = oneTwo ::: threeFour
@@ -7,11 +8,11 @@ println("Thus, " + oneTwoThreeFour + " is a new list.")
 0 :: oneTwo
 oneTwo.::(0)
 
-1 :: 2 :: 3 :: Nil
-3:: Nil :: 4 :: Nil
+1 :: 2 :: 3 :: chapter22.Nil
+3:: chapter22.Nil :: 4 :: chapter22.Nil
 
 
-val trill = "Bcca" :: "cc" :: "acc" :: Nil
+val trill = "Bcca" :: "cc" :: "acc" :: chapter22.Nil
 
 trill.count(x=> x.length == 1)
 

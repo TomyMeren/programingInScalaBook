@@ -1,6 +1,6 @@
 package chapter25
 
-import collection._
+import scala.collection._
 
 class PrefixMapB[T]
   extends mutable.Map[String, T]
@@ -42,4 +42,27 @@ class PrefixMapB[T]
   def -= (s: String): this.type  = { remove(s); this }
 
   override def empty = new PrefixMapB[T]
+}
+
+import scala.collection.mutable.{Builder, MapBuilder}
+import scala.collection.generic.CanBuildFrom
+
+object PrefixMapB {
+  def empty[T] = new PrefixMapB[T]
+
+  def apply[T](kvs: (String, T)*): PrefixMapB[T] = {
+    val m: PrefixMapB[T] = empty
+    for (kv <- kvs) m += kv
+    m
+  }
+
+  def newBuilder[T]: Builder[(String, T), PrefixMapB[T]] =
+    new MapBuilder[String, T, PrefixMapB[T]](empty)
+
+  implicit def canBuildFrom[T]
+  : CanBuildFrom[PrefixMapB[_], (String, T), PrefixMapB[T]] =
+    new CanBuildFrom[PrefixMapB[_], (String, T), PrefixMapB[T]] {
+      def apply(from: PrefixMapB[_]) = newBuilder[T]
+      def apply() = newBuilder[T]
+    }
 }

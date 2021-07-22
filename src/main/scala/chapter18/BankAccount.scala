@@ -6,15 +6,16 @@ class BankAccount {
 
   def getTotal = total
 
-  def ingresar(cantidad:Int):Unit  = {
-  if (cantidad > 0)
-    total = total + cantidad
-  else
-    throw new Exception("No se puede ingresar un numero negativo de dinero")
+  def ingresar(cantidad: Int): Unit = {
+    require(cantidad > 0)
+    total += cantidad
   }
 
-  def sacar(cantidad:Int):Unit = {
-    if (cantidad > total)
-    total = total - cantidad
+  def sacar(cantidad: Int): Boolean = {
+    if (cantidad > total) false
+    else {
+      total -= cantidad
+      true
+    }
   }
 }

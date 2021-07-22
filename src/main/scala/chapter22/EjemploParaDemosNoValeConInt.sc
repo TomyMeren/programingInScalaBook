@@ -1,15 +1,15 @@
-var start = 1
-var last0 = 2
+var start: Int = 0
+var last0: Int = 0
 
-
-last0 = 3
+last0 = 1
 start = last0
+var last1: Int = last0
 
-var last1 = last0
-last0 =4
+last0 = 2
 
-last1 = last0
+println("Start1!! => " + start)
+last1 = 3
+println("Start2!! => " + start) //12
 
-start
-last0
-last1
+println("last0!! => " + last0)
+println("last1!! => " + last1)
