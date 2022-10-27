@@ -1,0 +1,4 @@
+[debug] [programinginscalabook-test] Classpath dependencies List()
+[debug] [programinginscalabook-test] Dependencies from configurations List(programinginscalabook)
+[debug] Bloop wrote the configuration of project 'programinginscalabook-test' to '/Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/.bloop/programinginscalabook-test.json'
+[success] Generated .bloop/programinginscalabook-test.json
