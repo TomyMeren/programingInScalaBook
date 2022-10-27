@@ -1,0 +1,94 @@
+2022.10.27 11:48:33 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/.metals/lsp.trace.json or /Users/tomas.merendon/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.27 11:48:36 INFO  logging to file /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/.metals/metals.log
+2022.10.27 11:48:36 INFO  Started: Metals version 0.11.9 in workspace '/Users/tomas.merendon/Code/TomyProjects/programingInScalaBook' for client Visual Studio Code 1.72.2.
+2022.10.27 11:48:40 INFO  time: initialize in 4.61s
+2022.10.27 11:48:43 WARN  Build server is not auto-connectable.
+2022.10.27 11:52:08 INFO  running '/Users/tomas.merendon/Library/Java/JavaVirtualMachines/azul-13.0.12/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/yn/_258hmp54m55rsz5jqn5zbtw0000gn/T/metals8773599347129127932/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.10.27 11:52:09 WARN  no build target for: /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/project/project/metals.sbt
+2022.10.27 11:52:09 WARN  no build target for: /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/project/metals.sbt
+2022.10.27 11:52:08 INFO  skipping build import with status 'Started'
+2022.10.27 11:52:15 INFO  [info] Loading global plugins from /Users/tomas.merendon/.sbt/1.0/plugins
+2022.10.27 11:52:19 INFO  no build target found for /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.27 11:52:22 INFO  [info] Loading settings for project programinginscalabook-build-build from metals.sbt ...
+2022.10.27 11:52:22 INFO  [info] Loading project definition from /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/project/project
+2022.10.27 11:52:25 INFO  [info] Loading settings for project programinginscalabook-build from metals.sbt ...
+2022.10.27 11:52:25 INFO  [info] Loading project definition from /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/project
+2022.10.27 11:52:28 INFO  [success] Generated .bloop/programinginscalabook-build.json
+2022.10.27 11:52:28 INFO  [success] Total time: 3 s, completed Oct 27, 2022, 11:52:28 AM
+2022.10.27 11:52:30 INFO  [info] Loading settings for project programinginscalabook from build.sbt ...
+2022.10.27 11:52:30 INFO  [info] Set current project to ProgramingInScala (in build file:/Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/)
+2022.10.27 11:52:32 INFO  [success] Generated .bloop/programinginscalabook.json
+2022.10.27 11:52:32 INFO  [success] Generated .bloop/programinginscalabook-test.json
+2022.10.27 11:52:32 INFO  [success] Total time: 0 s, completed Oct 27, 2022, 11:52:32 AM
+2022.10.27 11:52:32 INFO  time: ran 'sbt bloopInstall' in 23s
+2022.10.27 11:52:32 INFO  Attempting to connect to the build server...
+2022.10.27 11:52:32 INFO  Setting up current java home /Users/tomas.merendon/Library/Java/JavaVirtualMachines/azul-13.0.12/Contents/Home in /Users/tomas.merendon/.bloop/bloop.json
+2022.10.27 11:52:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/.metals/bsp.trace.json or /Users/tomas.merendon/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.27 11:52:57 INFO  Attempting to connect to the build server...
+2022.10.27 11:52:57 INFO  Bloop uses /Users/tomas.merendon/Library/Java/JavaVirtualMachines/azul-13.0.12/Contents/Home defined at /Users/tomas.merendon/.bloop/bloop.json
+2022.10.27 11:52:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/project/.metals/bsp.trace.json or /Users/tomas.merendon/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.27 11:52:57 INFO  time: Connected to build server in 26s
+2022.10.27 11:52:57 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.27 11:52:59 INFO  time: Imported build in 0.96s
+2022.10.27 11:53:13 INFO  
+2022.10.27 11:53:13 INFO  Template applied in /Users/tomas.merendon/Code/TomyProjects/./scala3-test
+2022.10.27 11:53:13 INFO  
+2022.10.27 11:53:13 INFO  time: ran 'giter8.Giter8' in 13s
+2022.10.27 11:53:18 INFO  time: indexed workspace in 18s
+2022.10.27 11:57:02 INFO  running '/Users/tomas.merendon/Library/Java/JavaVirtualMachines/azul-13.0.12/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/yn/_258hmp54m55rsz5jqn5zbtw0000gn/T/metals4280480672953930142/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.10.27 11:57:09 INFO  [info] Loading global plugins from /Users/tomas.merendon/.sbt/1.0/plugins
+2022.10.27 11:57:14 INFO  [info] Loading settings for project programinginscalabook-build-build from metals.sbt ...
+2022.10.27 11:57:14 INFO  [info] Loading project definition from /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/project/project
+2022.10.27 11:57:17 INFO  [info] Loading settings for project programinginscalabook-build from metals.sbt ...
+2022.10.27 11:57:17 INFO  [info] Loading project definition from /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/project
+2022.10.27 11:57:22 INFO  [success] Generated .bloop/programinginscalabook-build.json
+2022.10.27 11:57:22 INFO  [success] Total time: 5 s, completed Oct 27, 2022, 11:57:22 AM
+2022.10.27 11:57:24 INFO  [info] Loading settings for project programinginscalabook from build.sbt ...
+Oct 27, 2022 11:57:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.10.27 11:57:24 INFO  [info] Set current project to ProgramingInScala (in build file:/Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/)
+2022.10.27 11:57:27 INFO  [success] Generated .bloop/programinginscalabook.json
+2022.10.27 11:57:27 INFO  [success] Generated .bloop/programinginscalabook-test.json
+2022.10.27 11:57:27 INFO  [success] Total time: 0 s, completed Oct 27, 2022, 11:57:27 AM
+2022.10.27 11:57:28 INFO  time: ran 'sbt bloopInstall' in 25s
+2022.10.27 11:57:28 INFO  Disconnecting from Bloop session...
+2022.10.27 11:57:28 INFO  Shut down connection with build server.
+2022.10.27 11:57:28 INFO  Shut down connection with build server.
+2022.10.27 11:57:28 INFO  Attempting to connect to the build server...
+2022.10.27 11:57:28 INFO  Bloop uses /Users/tomas.merendon/Library/Java/JavaVirtualMachines/azul-13.0.12/Contents/Home defined at /Users/tomas.merendon/.bloop/bloop.json
+2022.10.27 11:57:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/.metals/bsp.trace.json or /Users/tomas.merendon/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.27 11:57:28 INFO  Attempting to connect to the build server...
+2022.10.27 11:57:28 INFO  Bloop uses /Users/tomas.merendon/Library/Java/JavaVirtualMachines/azul-13.0.12/Contents/Home defined at /Users/tomas.merendon/.bloop/bloop.json
+2022.10.27 11:57:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/project/.metals/bsp.trace.json or /Users/tomas.merendon/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.27 11:57:28 INFO  time: Connected to build server in 0.19s
+2022.10.27 11:57:28 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.27 11:57:28 INFO  time: Imported build in 0.15s
+2022.10.27 11:57:35 INFO  time: indexed workspace in 7.36s
+2022.10.27 11:57:47 INFO  time: code lens generation in 11s
+2022.10.27 12:02:10 INFO  running '/Users/tomas.merendon/Library/Java/JavaVirtualMachines/azul-13.0.12/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/yn/_258hmp54m55rsz5jqn5zbtw0000gn/T/metals8505490049719957514/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.10.27 12:02:17 INFO  [info] Loading global plugins from /Users/tomas.merendon/.sbt/1.0/plugins
+2022.10.27 12:02:20 INFO  [info] Loading settings for project programinginscalabook-build-build from metals.sbt ...
+2022.10.27 12:02:20 INFO  [info] Loading project definition from /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/project/project
+2022.10.27 12:02:20 INFO  [info] Loading settings for project programinginscalabook-build from metals.sbt ...
+2022.10.27 12:02:20 INFO  [info] Loading project definition from /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/project
+2022.10.27 12:02:24 INFO  [success] Generated .bloop/programinginscalabook-build.json
+2022.10.27 12:02:24 INFO  [success] Total time: 4 s, completed Oct 27, 2022, 12:02:25 PM
+2022.10.27 12:02:24 INFO  [info] Loading settings for project programinginscalabook from build.sbt ...
+2022.10.27 12:02:24 INFO  [info] Set current project to ProgramingInScala (in build file:/Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/)
+2022.10.27 12:02:26 INFO  [success] Generated .bloop/programinginscalabook-test.json
+2022.10.27 12:02:26 INFO  [success] Generated .bloop/programinginscalabook.json
+2022.10.27 12:02:26 INFO  [success] Total time: 0 s, completed Oct 27, 2022, 12:02:26 PM
+2022.10.27 12:02:26 INFO  time: ran 'sbt bloopInstall' in 16s
+2022.10.27 12:02:26 INFO  Disconnecting from Bloop session...
+2022.10.27 12:02:26 INFO  Shut down connection with build server.
+2022.10.27 12:02:26 INFO  Shut down connection with build server.
+2022.10.27 12:02:26 INFO  Attempting to connect to the build server...
+2022.10.27 12:02:26 INFO  Bloop uses /Users/tomas.merendon/Library/Java/JavaVirtualMachines/azul-13.0.12/Contents/Home defined at /Users/tomas.merendon/.bloop/bloop.json
+2022.10.27 12:02:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/.metals/bsp.trace.json or /Users/tomas.merendon/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.27 12:02:26 INFO  Attempting to connect to the build server...
+2022.10.27 12:02:26 INFO  Bloop uses /Users/tomas.merendon/Library/Java/JavaVirtualMachines/azul-13.0.12/Contents/Home defined at /Users/tomas.merendon/.bloop/bloop.json
+2022.10.27 12:02:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tomas.merendon/Code/TomyProjects/programingInScalaBook/project/.metals/bsp.trace.json or /Users/tomas.merendon/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.10.27 12:02:26 INFO  time: Connected to build server in 0.12s
+2022.10.27 12:02:26 INFO  Connected to Build server: Bloop v1.5.4
+2022.10.27 12:02:30 INFO  time: indexed workspace in 3.75s
+2022.10.27 12:02:36 INFO  time: code lens generation in 5.22s
